@@ -1,0 +1,12 @@
+eef3ed -> white
+121312 -> background black
+1c1d1c -> color icon
+d7ca39 -> yellow
+08bf07 -> green
+
+FONTS
+Bangers
+Boogaloo
+Passion One
+----------
+Galada

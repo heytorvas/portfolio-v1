@@ -1,0 +1,219 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.alignCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+    font-family: 'Elsie', cursive;
+    color:#FFF;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    min-height: 100%;
+
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* Define backgrounds dos divs */
+#home {
+    background-image: url(img/background1Parallax.jpg);
+}
+
+#about {
+    background-image: url(img/background2Parallax.jpg);
+}
+
+#work {
+    background-image: url(img/background1Parallax.jpg);
+}
+
+#social {
+    background-image: url(img/background2Parallax.jpg);
+}
+
+/** Formata o article que vai o texto **/
+.bgParallax article {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 8% 0 0;
+}
+
+/** formata texto **/
+article p {
+    margin-top: 20px;
+    color:#121312; 
+    text-decoration:none;
+    font-size: 60px;
+    font-family: 'Passion One', cursive;
+}
+
+.bgParallax section {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10% 0 0;
+}
+
+section h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    color: #eef3ed;
+}
+
+section p {
+    font-family: 'Boogaloo', cursive;
+    font-size: 33px;
+    line-height: 44px;
+    color: #d7ca39;
+    padding-top: 20px;
+}
+.sizeImgHome {
+    width: 700px;
+    height: 350px;
+}
+
+section h2 {
+    color: #eef3ed;
+    font-family: 'Passion One', cursive;
+    border: 2px solid #eef3ed;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 50%;
+}
+
+.infoData {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bgParallax .myWorks {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5% 0 0;
+}
+
+.myWorks h1 {
+    font-family: 'Rammetto One', cursive;
+    color: #6f1319;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.sizeImgWorks {
+    width: 500px;
+    height: 300px;
+}
+
+.myWorks img {
+    margin-top: 13%;
+}
+
+.bgParallax .socialMedia {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2% 0 0;
+}
+
+.sizeImgSocial {
+    width: 135px;
+    height: 135px;
+    margin-top: 110%;
+}
+
+.socialMedia h1{
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    color: #eef3ed;
+}
+
+.bgParallax .footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 0 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer p{
+    font-family: 'Galada', cursive;
+    color: #eef3ed;
+    font-size: 25px;
+}
+
+/* =========== MEDIA QUERIES =========== */
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    .sizeImgHome {
+        width: 400px;
+        height: 150px;
+        margin-top: 50%;
+    }
+    article p {
+        font-size: 38px;
+    }
+    section h1 {
+        font-size: 40px;
+    }
+    section p {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .myWorks h1 { 
+        font-size: 35px;
+    }
+    .sizeImgWorks {
+        width: 300px;
+        height: 150px;
+    }
+    .socialMedia h1 {
+        font-size: 35px;
+        margin-bottom: -25%;
+    }
+    .sizeImgSocial {
+        width: 75px;
+        height: 75px;
+    }
+    .infoData {
+        margin-top: -35%;
+    }
+    .sizeImgSocial {
+        margin-top: 140%;
+    }
+    .footer p {
+        font-size: 22px;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 767px) {
+    
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+
+}
